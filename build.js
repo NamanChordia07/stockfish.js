@@ -56,7 +56,7 @@ function get_params(options, argv)
                 if (match) {
                     last = match[1];
                     params[last] = match[2];
-                    last = "";
+                    last = " ";
                 } else {
                     params[last] = true;
                 }
